@@ -46,6 +46,13 @@ blockquote, q {
 		content: none;
 	}
 
+#svg-stack{
+	width: 40%;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+}
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
@@ -132,6 +139,10 @@ input, select, textarea {
 	strong, b {
 		font-weight: 700;
 		color: #484d55;
+	}
+
+	#icons-container{
+		width: 25%
 	}
 
 	blockquote {
