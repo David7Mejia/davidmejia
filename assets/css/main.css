@@ -340,6 +340,24 @@ p, ul, ol, dl, table, blockquote, form {
 	margin-left: 91.66667%;
 }
 
+#contact-content{
+	border:0 ;
+}
+#contact-section-info{
+ width:300px;
+ padding: 0;
+}
+
+#contact-section{
+	width:100%;
+}
+
+#contact-row{
+	display: flex;
+	justify-content: center;
+	margin:0;
+	width: 100%;
+}
 .row>.col-12 {
 	width: 100%;
 }
@@ -1786,7 +1804,7 @@ ul.actions.special {
 	font-weight: 900;
 	text-transform: uppercase;
 	color: #fff;
-	font-size: 2em;
+	font-size: 3em;
 	letter-spacing: 0.25em;
 }
 
@@ -1968,7 +1986,8 @@ ul.actions.special {
 	background: #282b34 url("images/overlay.png");
 	color: #eee;
 	color: rgba(255, 255, 255, 0.5);
-	padding-bottom: 6em;
+	padding: 0;
+	/* padding-bottom: 6em; */
 }
 
 #footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6, #footer strong, #footer b, #footer a {
@@ -2042,7 +2061,7 @@ ul.actions.special {
 
 #copyright {
 	text-align: center;
-	padding-top: 6em;
+	/* padding-top: 6em; */
 	margin-top: 6em;
 	border-top: solid 1px rgba(255, 255, 255, 0.05);
 }
