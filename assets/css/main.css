@@ -15,6 +15,42 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	vertical-align: baseline;
 }
 
+.linkedin-container {
+	border: 0;
+	background-image: url('../css/images/linkedin.svg');
+	background-size: cover;
+	height: 50px;
+	width: 50px;
+	cursor: pointer;
+	margin: 0;
+	background-repeat: no-repeat;
+	text-decoration: none
+}
+
+.profile-photo{
+	background-image: url('./images/112.jpeg');
+	width: 150px;
+	height: 150px;
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: 130%;
+	border-radius: 50%;
+}
+
+.github-container {
+	background-image: url('../css/images/github-sign.svg');
+	background-size: cover;
+	height: 50px;
+	width: 50px;
+	cursor: pointer;
+	background-repeat: no-repeat;
+	text-decoration: none
+}
+
+.linkedin .github {
+	border: 0
+}
+
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -118,7 +154,7 @@ a {
 	-webkit-transition: color .25s ease-in-out;
 	-ms-transition: color .25s ease-in-out;
 	transition: color .25s ease-in-out;
-	text-decoration: underline;
+	text-decoration: none;
 	color: #717479;
 }
 
@@ -340,24 +376,26 @@ p, ul, ol, dl, table, blockquote, form {
 	margin-left: 91.66667%;
 }
 
-#contact-content{
-	border:0 ;
-}
-#contact-section-info{
- width:300px;
- padding: 0;
+#contact-content {
+	border: 0;
 }
 
-#contact-section{
-	width:100%;
+#contact-section-info {
+	width: 300px;
+	padding: 0;
 }
 
-#contact-row{
-	display: flex;
-	justify-content: center;
-	margin:0;
+#contact-section {
 	width: 100%;
 }
+
+#contact-row {
+	display: flex;
+	justify-content: center;
+	margin: 0;
+	width: 100%;
+}
+
 .row>.col-12 {
 	width: 100%;
 }
@@ -1788,7 +1826,7 @@ ul.actions.special {
 }
 
 .homepage #header {
-	height: 35em;
+	height: 25em;
 }
 
 /* Logo */
@@ -2196,6 +2234,7 @@ ul.actions.special {
 		max-width: 40em;
 		margin-left: auto;
 		margin-right: auto;
+		height: 570px;
 	}
 	/* Footer */
 	#footer .feature-list {
